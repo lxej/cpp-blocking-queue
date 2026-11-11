@@ -1,6 +1,8 @@
 Учебная блокирующая очередь на C++17: mutex, condition_variable, тестирование и отладка
 g++ -fsanitize=thread -O0 -g -std=c++17 tests.cpp BlockingQueue.cpp -o prog
+
 ./prog - запуск программы.
+
 gdb ./prog - запуск отладчика.
 
 Написал блокирующую очередь и юнит-тесты к ней.
